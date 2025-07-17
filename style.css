@@ -2,14 +2,34 @@
     text-align: center;
     font-family: 'Press Start 2P';
     letter-spacing: 0.2rem;
+    font-size: 3rem;
+}
+
+.description {
+    text-align: center;
+    font-family: 'Bit Cell';
+    letter-spacing: 0.1rem;
+    font-size: 3rem;
+    font-weight: 400;
 }
 
 .additional-heading {
     text-align: center;
-    font-family: 'Bit Cell';
+    font-family: 'Press Start 2P';
     letter-spacing: 0.1rem;
-    font-size: 4rem;
+    font-size: 1.5rem;
     font-weight: 400;
+}
+
+.lucky-text {
+    padding-top: 2rem;
+    text-align: center;
+    font-family: 'Press Start 2P';
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #3366AA;
+    display: none;
 }
 
 
@@ -21,6 +41,7 @@
 }
 
 .qr-code {
+    min-height: 200px;
     padding-bottom: 2rem
 }
 
@@ -35,4 +56,18 @@
     font-weight: 400;
     background-color: rgb(255, 255, 255);
 
+}
+
+#drawing_canvas {
+    position: fixed; 
+    margin: auto;
+    width: 100%; 
+    height: 100%; 
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100; /* добавил z-index, чтобы конфетти были над содержимым */
+    pointer-events: none; /* добавил, чтобы не мешало кликам */
+    display: none; /* скрыт по умолчанию */
 }

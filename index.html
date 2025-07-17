@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>QR-код BIGJC</title>
+    <title>QR-код БОЛЬШОГО ДЖЕЯ</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"
         integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA=="
@@ -11,8 +11,9 @@
 </head>
 
 <body>
+    <canvas id="drawing_canvas"></canvas>
     <h1 class="main-heading">Привет!</h1>
-    <h2 class="additional-heading">Тут ты можешь подписаться на <span>КАНАЛ БОЛЬШОГО ДЖЕЯ</span></h2>
+    <h2 class="description">Тут ты можешь подписаться на <span>КАНАЛ БОЛЬШОГО ДЖЕЯ (если повезёт!)</span></h2>
     <h2 class="additional-heading">Просто просканируй QR-код;)</h2>
 
     <div class="qr-container">
@@ -20,7 +21,10 @@
         <button id="buttonQR" class="button-qr-change">Поменять QR</button>
     </div>
 
-<script src="script.js"></script>
+    <div class="lucky-text"> Ура, тебе повезло! Скорее сканируй и подписывайся!</div>
+
+    <script src="script.js"></script>
+    <script src="confetti.js"></script>
 </body>
 
 </html>
