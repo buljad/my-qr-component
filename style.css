@@ -1,0 +1,38 @@
+.main-heading {
+    text-align: center;
+    font-family: 'Press Start 2P';
+    letter-spacing: 0.2rem;
+}
+
+.additional-heading {
+    text-align: center;
+    font-family: 'Bit Cell';
+    letter-spacing: 0.1rem;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+
+.qr-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.qr-code {
+    padding-bottom: 2rem
+}
+
+.button-qr-change {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: 'Bit Cell';
+    letter-spacing: 0.1rem;
+    font-size: 3em;
+    font-weight: 400;
+    background-color: rgb(255, 255, 255);
+
+}
